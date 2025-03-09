@@ -18,7 +18,7 @@ app = FastAPI()
 ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Allow frontend running locally
     "http://192.168.133.171:3000",
-    "https://95aa-149-7-16-247.ngrok-free.app",  # Replace with your actual ngrok URL
+    "https://next-js-voice-chat-bot-client.vercel.app/",  # Replace with your actual ngrok URL
 ]
 
 # Google Cloud Speech Client setup
